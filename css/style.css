@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(180, 180, 180);
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    background-repeat: no-repeat; 
+}
+.wrapper{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    width: 950px;
+    height: 1200px;
+    padding: auto;
+    transition: 0.5s;
+}
+.wrapper:hover{
+    transition: 0.5s;
+    box-shadow: 0 3px 20px rgb(0, 0, 0);
+}
+.header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: rgb(18, 21, 27);
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.header:hover{
+    transition: 0.5s;
+    background-color: rgb(20, 27, 34);
+}
+.block{
+    width: 100%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    transition: 0.5s;
+    background-image: url(../img/open-space-4-1.jpg);        
+    background-repeat: no-repeat;   
+    justify-content: space-between;
+  
+}
+.block:hover{
+    transition: 0.5s;
+}
+.box{
+    align-items: center;
+    margin: 10px;
+    width:65%;
+    display: flex;
+    height: 650px;
+    border-radius: 10px;
+    flex-direction: column;
+   
+}
+.box__project{
+    width:100%;
+    display: flex;
+    height: 450px;
+    border-radius: 10px;
+    background-color: rgb(20, 27, 34);  
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.project{
+    background-color: rgb(20, 27, 34); 
+    margin: 10px;
+    width:90%;
+    display: flex;
+    height: 40px;
+    transition: 0.5s;
+}
+.project:hover{
+    transition: 0.5s;
+    background-color: rgb(20, 27, 34);  
+}
+.my__projects{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+.color-list{
+    color: rgb(255, 0, 0);
+}
+.title__project{
+    margin-left:15px;
+    color: white;
+}
+.title__text{
+    margin:1px;
+    color: white;
+    font-size: 12px;
+}
+.title__text1{
+    margin:2px;
+    color: white;
+    font-size: 17px;
+}
+.title__text2{
+    margin:2px;
+    color: white;
+    font-size: 17px;
+}
+
+.ukrainian{
+    margin: 5px;
+    width: 100%;
+    height: 60px;
+}
+.title__project2{
+    color: white;
+}
+.list__languages{
+    align-items: center;
+    margin:2px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.languages{
+    margin: 10px;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(23, 24, 36);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contacts{
+    width: 100%;
+    display: flex;
+    height: 180px;
+    background-color: rgb(18, 21, 27);
+    transition: 0.5s;
+    align-items: center;
+    
+}
+.contacts:hover{
+    transition: 0.5s;
+    background-color: rgb(20, 27, 34);  
+}
+.photo{
+    display: flex;
+    align-items: center;
+}
+
+.photo__modified{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 15px;
+    transition: 0.5s;
+    box-shadow: 0 3px 20px rgb(0, 0, 0);
+}
+.photo__modified:hover{
+    transition: 0.5s;
+    box-shadow: 0 3px 20px rgb(26, 27, 37);
+}
+.name__informations{
+    margin: 2px;
+    width: 90%;
+    align-items: center;
+    padding: 5px;
+}
+.name{
+    margin: 5px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.name:hover{
+    color: rgb(248, 240, 240);
+    transition-duration:0.5s ;
+}
+
+.title{
+    margin: 9px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.text{
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.social__item{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gmail{
+    margin-left: 3px;
+}
+.gmail__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+.instagram__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: -5px;
+    text-decoration: none;
+}
+.telegram{
+    margin-left: -5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+}
+.text__style{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.text__style:hover{
+    color: rgb(121, 0, 0);
+    transition: .5s;
+    text-decoration: underline;
+}
+.telegram__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: -3px;
+}
+.github{
+    margin-left: 3px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+.github__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.linkedin{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+.linkedin__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.social__modified{
+    transition: 0.5s;
+}
+.social__modified:hover{
+    transition: .5s;
+}
+
+.skills{
+    background-color: rgb(18, 21, 27);
+    color: rgb(0, 0, 0);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 2px rgb(0, 0, 0);
+    transition: 0.5s;
+    margin: 10px;
+}
+.skills:hover{
+    box-shadow: 0 6px 7px rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: rgb(30, 32, 48);
+    
+}
+.my__skills{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+    
+p{
+    color: rgb(255, 255, 255);
+    word-spacing: 2px;
+    margin: 5px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+    word-spacing: 5px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 90%;
+    height: 450px;
+}
+.education__txt{
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 40px;
+}
+.education__text{
+    color: #000;
+    width: 99%;
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+.education__front_end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2px; 
+    width: 99%;
+    height: 80px;
+    background-color: rgb(18, 21, 27);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 2px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.education__front_end:hover{
+    box-shadow: 0 6px 7px rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: rgb(30, 32, 48)
+}
+.marathon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2px; 
+    width: 99%;
+    height: 80px;
+    background-color: rgb(18, 21, 27);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 2px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.marathon:hover{
+    box-shadow: 0 6px 7px rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: rgb(30, 32, 48);
+}
+h3{
+    margin:5px; 
+}
+.student{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2px;
+    width: 99%;
+    height: 90px;
+    background-color: rgb(18, 21, 27);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 2px rgb(0, 0, 0);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.student:hover{
+    box-shadow: 0 6px 7px rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: rgb(30, 32, 48);
+}
+.mia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 99%;
+    height: 90px;
+    background-color: rgb(18, 21, 27);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 2px rgb(0, 0, 0);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.mia:hover{
+    box-shadow: 0 6px 7px rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: rgb(30, 32, 48);
+}
+
+
+    
